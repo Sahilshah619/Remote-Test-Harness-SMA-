@@ -1,0 +1,532 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Fri Feb 17 11:12:24 2017
+     Path: "C:\Users\Sahil\Desktop\SMA\TestHarness#4"
+     Args: *.h, *.cpp, *.cs, CommChannelDemo.sln, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     592
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  App.g.cs   namespace                         GUI_Client      35      35       4
+                  App.g.cs       class                                App      41      29       3
+                  App.g.cs    function       DebuggerNonUserCodeAttribute      48       8       1
+                  App.g.cs    function                 STAThreadAttribute      63       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                App.g.i.cs   namespace                         GUI_Client      35      35       4
+                App.g.i.cs       class                                App      41      29       3
+                App.g.i.cs    function       DebuggerNonUserCodeAttribute      48       8       1
+                App.g.i.cs    function                 STAThreadAttribute      63       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               App.xaml.cs   namespace                         GUI_Client      10       8       2
+               App.xaml.cs       class                                App      15       3       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          BlockingQueue.cs   namespace                            SWTools      28      91      17
+          BlockingQueue.cs       class                      BlockingQueue      30      55      11
+          BlockingQueue.cs    function                      BlockingQueue      37       3       1
+          BlockingQueue.cs    function                                enQ      43       7       2
+          BlockingQueue.cs    function                               lock      45       4       1
+          BlockingQueue.cs    function                                deQ      56      12       3
+          BlockingQueue.cs    function                               lock      59       8       2
+          BlockingQueue.cs    function                               size      72       5       2
+          BlockingQueue.cs    function                               lock      73       2       1
+          BlockingQueue.cs    function                              clear      80       3       2
+          BlockingQueue.cs    function                               lock      80       2       1
+          BlockingQueue.cs       class                            Program      88      30       5
+          BlockingQueue.cs    function                               Main      90      26       4
+          BlockingQueue.cs    function                             Thread      96       7       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            ChannelDemo.cs   namespace                    CommChannelDemo      30      93      15
+            ChannelDemo.cs       class                        ChannelDemo      39      65      10
+            ChannelDemo.cs    function                        ChannelDemo      44       2       1
+            ChannelDemo.cs    function                      rcvThreadProc      48      28       5
+            ChannelDemo.cs    function                    makeTestRequest      87      15       1
+            ChannelDemo.cs       class                             Client     102       3       1
+            ChannelDemo.cs       class                             Server     103       3       1
+            ChannelDemo.cs       class                    TestDemoChannel     107      16       2
+            ChannelDemo.cs    function                               Main     109      12       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Client1.cs   namespace                          CSE681SMA      28     165      22
+                Client1.cs       class                             Client      30     163      21
+                Client1.cs    function                             Client      36       4       1
+                Client1.cs    function                               wait      42       3       1
+                Client1.cs    function                        makeMessage      47       7       1
+                Client1.cs    function                      rcvThreadProc      56      11       2
+                Client1.cs       class                            Client1      68     124      13
+                Client1.cs    function                            Client1      77       4       1
+                Client1.cs    function               CreateServiceChannel      82      10       1
+                Client1.cs    function                         uploadFile      94      20       4
+                Client1.cs    function                              using     100       6       1
+                Client1.cs    function                           download     116      30       5
+                Client1.cs    function                              using     126      11       2
+                Client1.cs    function                               Main     148      42       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            CommService.cs   namespace                    CommChannelDemo      29     207      35
+            CommService.cs       class                           Receiver      33      51       8
+            CommService.cs    function                           Receiver      38       4       1
+            CommService.cs    function                              start      44       5       1
+            CommService.cs    function                              Close      51       3       1
+            CommService.cs    function                  CreateRecvChannel      57       8       1
+            CommService.cs    function                        PostMessage      68       4       1
+            CommService.cs    function                         GetMessage      77       5       1
+            CommService.cs       class                             Sender      86      93      14
+            CommService.cs    function                         ThreadProc      97      37       7
+            CommService.cs    function                             Sender     137       6       1
+            CommService.cs    function                  CreateSendChannel     146       8       1
+            CommService.cs    function                        PostMessage     160       3       1
+            CommService.cs    function                       GetLastError     165       5       1
+            CommService.cs    function                              Close     173       4       1
+            CommService.cs       class                               Comm     182      29       9
+            CommService.cs    function                               Comm     187       4       1
+            CommService.cs    function                       makeEndPoint     192       4       1
+            CommService.cs    function                           thrdProc     198      11       3
+            CommService.cs       class                                Cat     210       3       1
+            CommService.cs       class                           TestComm     213      23       2
+            CommService.cs    function                               Main     215      18       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           CreateDomain.cs   namespace                              TestH      29     105      16
+           CreateDomain.cs       class                  ApplicationDomain      31      46       7
+           CreateDomain.cs    function                     showAssemblies      33       5       1
+           CreateDomain.cs    function        LoaderOptimizationAttribute      41      34       5
+           CreateDomain.cs       class                            Creator      77      57       8
+           CreateDomain.cs    function                     showAssemblies      79       5       1
+           CreateDomain.cs    function        LoaderOptimizationAttribute      87      33       5
+           CreateDomain.cs    function                               Main     121      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Driver1.cs   namespace                              TestH      22      53       8
+                Driver1.cs       class                        TestDriver1      24      51       7
+                Driver1.cs    function                        TestDriver1      29       3       1
+                Driver1.cs    function                             create      35       3       1
+                Driver1.cs    function                               test      40      19       3
+                Driver1.cs    function                               Main      62      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Driver2.cs   namespace                              TestH      23      42       8
+                Driver2.cs       class                        TestDriver2      25      40       7
+                Driver2.cs    function                        TestDriver2      29       3       1
+                Driver2.cs    function                             create      34       3       1
+                Driver2.cs    function                               test      39      13       3
+                Driver2.cs    function                               Main      54       9       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Driver3.cs   namespace                              TestH      23      49       8
+                Driver3.cs       class                        TestDriver3      25      47       7
+                Driver3.cs    function                        TestDriver3      31       3       1
+                Driver3.cs    function                             create      37       3       1
+                Driver3.cs    function                               test      43      13       3
+                Driver3.cs    function                               Main      59      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Driver4.cs   namespace                              TestH      22      44       8
+                Driver4.cs       class                        TestDriver4      24      42       7
+                Driver4.cs    function                        TestDriver4      28       3       1
+                Driver4.cs    function                             create      33       3       1
+                Driver4.cs    function                               test      38      13       3
+                Driver4.cs    function                               Main      53      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             HiResTimer.cs   namespace                            HRTimer      27      70      13
+             HiResTimer.cs       class                         HiResTimer      29      69      12
+             HiResTimer.cs    function                         HiResTimer      32       5       1
+             HiResTimer.cs    function                              Start      75       4       1
+             HiResTimer.cs    function                               Stop      81       4       1
+             HiResTimer.cs   namespace                            HRTimer      22      71      13
+             HiResTimer.cs       class                         HiResTimer      24      70      12
+             HiResTimer.cs    function                         HiResTimer      28       5       1
+             HiResTimer.cs    function                              Start      71       4       1
+             HiResTimer.cs    function                               Stop      77       4       1
+             HiResTimer.cs   namespace                            HRTimer      22      71      13
+             HiResTimer.cs       class                         HiResTimer      24      70      12
+             HiResTimer.cs    function                         HiResTimer      28       5       1
+             HiResTimer.cs    function                              Start      71       4       1
+             HiResTimer.cs    function                               Stop      77       4       1
+             HiResTimer.cs   namespace                            HRTimer      28      69      13
+             HiResTimer.cs       class                         HiResTimer      30      68      12
+             HiResTimer.cs    function                         HiResTimer      34       5       1
+             HiResTimer.cs    function                              Start      77       4       1
+             HiResTimer.cs    function                               Stop      83       4       1
+             HiResTimer.cs   namespace                            HRTimer      28      71      13
+             HiResTimer.cs       class                         HiResTimer      30      70      12
+             HiResTimer.cs    function                         HiResTimer      34       5       1
+             HiResTimer.cs    function                              Start      77       4       1
+             HiResTimer.cs    function                               Stop      83       4       1
+             HiResTimer.cs   namespace                            HRTimer      27      69      13
+             HiResTimer.cs       class                         HiResTimer      29      68      12
+             HiResTimer.cs    function                         HiResTimer      33       5       1
+             HiResTimer.cs    function                              Start      76       4       1
+             HiResTimer.cs    function                               Stop      82       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Host.cs   namespace                        FileStreams      22      92      10
+                   Host.cs       class                      StreamService      25      89       9
+                   Host.cs    function                      StreamService      34       4       1
+                   Host.cs    function                         upLoadFile      40      25       3
+                   Host.cs    function                              using      48      11       2
+                   Host.cs    function                       downLoadFile      67      14       2
+                   Host.cs    function               CreateServiceChannel      83      15       1
+                   Host.cs    function                               Main     100      12       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          ICommunicator.cs   namespace                    CommChannelDemo      20      15       2
+          ICommunicator.cs   interface                      ICommunicator      23       7       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           IFileService.cs   namespace                FileTransferService      11      14       2
+           IFileService.cs   interface                       IFileService      14      10       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         IStreamService.cs   namespace                          CSE681SMA      13      19       5
+         IStreamService.cs   interface                     IStreamService      16       6       1
+         IStreamService.cs       class                FileTransferMessage      25       8       3
+         IStreamService.cs    function                      MessageHeader      26       2       1
+         IStreamService.cs    function                  MessageBodyMember      29       2       1
+         IStreamService.cs   namespace                          CSE681SMA      12      33       6
+         IStreamService.cs   interface                     IStreamService      15       6       1
+         IStreamService.cs       class                FileTransferMessage      24       8       3
+         IStreamService.cs    function                      MessageHeader      25       2       1
+         IStreamService.cs    function                  MessageBodyMember      28       2       1
+         IStreamService.cs   interface                       IFileService      34      10       1
+         IStreamService.cs   namespace                        FileStreams      12      33       6
+         IStreamService.cs   interface                     IStreamService      15       6       1
+         IStreamService.cs       class                FileTransferMessage      24       8       3
+         IStreamService.cs    function                      MessageHeader      25       2       1
+         IStreamService.cs    function                  MessageBodyMember      28       2       1
+         IStreamService.cs   interface                       IFileService      34      10       1
+         IStreamService.cs   namespace                         RepoToMain      12      19       5
+         IStreamService.cs   interface                     IStreamService      15       6       1
+         IStreamService.cs       class                FileTransferMessage      24       8       3
+         IStreamService.cs    function                      MessageHeader      25       2       1
+         IStreamService.cs    function                  MessageBodyMember      28       2       1
+         IStreamService.cs   namespace                         RepoToMain      12      33       6
+         IStreamService.cs   interface                     IStreamService      15       6       1
+         IStreamService.cs       class                FileTransferMessage      24       8       3
+         IStreamService.cs    function                      MessageHeader      25       2       1
+         IStreamService.cs    function                  MessageBodyMember      28       2       1
+         IStreamService.cs   interface                       IFileService      34      10       1
+         IStreamService.cs   namespace                          CSE681SMA      12      33       6
+         IStreamService.cs   interface                     IStreamService      15       6       1
+         IStreamService.cs       class                FileTransferMessage      24       8       3
+         IStreamService.cs    function                      MessageHeader      25       2       1
+         IStreamService.cs    function                  MessageBodyMember      28       2       1
+         IStreamService.cs   interface                       IFileService      34      10       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              Interface.cs   namespace                              TestH      22       8       2
+              Interface.cs   interface                              ITest      24       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         LoadAndExecute.cs   namespace                              TestH      24      87      15
+         LoadAndExecute.cs       class                        TestHarness      26      85      14
+         LoadAndExecute.cs      struct                           TestData      28       5       1
+              public data: public string Name ; 
+              public data: public ITest testDriver ; 
+         LoadAndExecute.cs    function                        TestHarness      36       3       1
+         LoadAndExecute.cs    function                          LoadTests      41      36       6
+         LoadAndExecute.cs    function                                run      79      20       4
+         LoadAndExecute.cs    function                               Main     100       9       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Logging.cs   namespace                              TestH      24      58       9
+                Logging.cs   interface                            ILogger      26       5       1
+                Logging.cs       class                      ConsoleLogger      33      49       7
+                Logging.cs    function                      ConsoleLogger      39       6       1
+                Logging.cs    function                                add      46      11       2
+                Logging.cs    function                    showCurrentItem      59       5       1
+                Logging.cs    function                            showAll      66       6       1
+                Logging.cs    function                               Main      74       6       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           MainWindow.g.cs   namespace                         GUI_Client      35     166       6
+           MainWindow.g.cs       class                         MainWindow      41     160       5
+           MainWindow.g.cs    function       DebuggerNonUserCodeAttribute     122      13       2
+           MainWindow.g.cs    function       DebuggerNonUserCodeAttribute     142      57       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         MainWindow.g.i.cs   namespace                         GUI_Client      35     166       6
+         MainWindow.g.i.cs       class                         MainWindow      41     160       5
+         MainWindow.g.i.cs    function       DebuggerNonUserCodeAttribute     122      13       2
+         MainWindow.g.i.cs    function       DebuggerNonUserCodeAttribute     142      57       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        MainWindow.xaml.cs   namespace                         GUI_Client      30     223      34
+        MainWindow.xaml.cs       class                         MainWindow      35     218      33
+              public data: public List < String > fileList ; 
+              public data: public List < String > fileList1 ; 
+        MainWindow.xaml.cs    function                         MainWindow      50      19       1
+        MainWindow.xaml.cs    function                               wait      70       3       1
+        MainWindow.xaml.cs    function               CreateServiceChannel      74      10       1
+        MainWindow.xaml.cs    function                         uploadFile      85      20       4
+        MainWindow.xaml.cs    function                              using      91       6       1
+        MainWindow.xaml.cs    function                           download     106      30       5
+        MainWindow.xaml.cs    function                              using     116      11       2
+        MainWindow.xaml.cs    function                      rcvThreadProc     136      12       2
+        MainWindow.xaml.cs    function                         GUIRequest     149      10       1
+        MainWindow.xaml.cs    function                        makeMessage     162       7       1
+        MainWindow.xaml.cs    function                       button_Click     170      25       3
+        MainWindow.xaml.cs    function                      button1_Click     197      14       2
+        MainWindow.xaml.cs    function                        ThreadStart     199       9       1
+        MainWindow.xaml.cs    function                      button2_Click     213       3       1
+        MainWindow.xaml.cs    function                      button4_Click     218       5       1
+        MainWindow.xaml.cs    function          comboBox_SelectionChanged     225      24       5
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            MessageTest.cs   namespace                    CommChannelDemo      25     129      23
+            MessageTest.cs       class                        TestElement      28      31      10
+            MessageTest.cs    function                        TestElement      31       2       1
+            MessageTest.cs    function                        TestElement      34       3       1
+            MessageTest.cs    function                          addDriver      38       3       1
+            MessageTest.cs    function                            addCode      42       3       1
+            MessageTest.cs    function                           ToString      48       9       2
+            MessageTest.cs       class                        TestRequest      59      16       6
+            MessageTest.cs    function                        TestRequest      59       2       1
+            MessageTest.cs    function                           ToString      65       8       2
+            MessageTest.cs       class                        MessageTest      76      78       6
+            MessageTest.cs    function                    makeTestRequest      78      13       1
+            MessageTest.cs    function                       errorMessage      93       8       1
+            MessageTest.cs    function                   makeTestRequest1     103      13       1
+            MessageTest.cs    function             makeAnotherTestRequest     118      14       1
+            MessageTest.cs    function                               Main     134      18       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Messages.cs   namespace                    CommChannelDemo      28     121      25
+               Messages.cs       class                            Message      31      58      14
+               Messages.cs    function                            Message      42       4       1
+               Messages.cs    function                            Message      47       4       1
+               Messages.cs    function                         fromString      53      21       3
+               Messages.cs    function                           ToString      76      10       1
+               Messages.cs       class                         extMethods      89      42       8
+               Messages.cs    function                            showMsg      91       9       3
+               Messages.cs    function                           ToString      92       1       1
+               Messages.cs    function                           showThis     103       8       1
+               Messages.cs    function                              shift     112      12       2
+               Messages.cs    function                          formatXml     125       4       1
+               Messages.cs       class                       TestMessages     131      18       2
+               Messages.cs    function                               Main     134      12       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Program.cs   namespace                   CS_BlockingQueue      15      33       6
+                Program.cs       class                            Program      18      29       5
+                Program.cs    function                               Main      20      25       4
+                Program.cs    function                             Thread      25       7       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+       Repositoryserver.cs   namespace                     GUI_Repository      26      93      10
+       Repositoryserver.cs       class                      StreamService      29      91       9
+       Repositoryserver.cs    function                      StreamService      38       4       1
+       Repositoryserver.cs    function                         upLoadFile      46      25       3
+       Repositoryserver.cs    function                              using      54      11       2
+       Repositoryserver.cs    function                       downLoadFile      73      14       2
+       Repositoryserver.cs    function               CreateServiceChannel      89      15       1
+       Repositoryserver.cs    function                               Main     107      11       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              Resources.cs   namespace                         Properties      11      48       9
+              Resources.cs       class                          Resources      21      38       8
+              Resources.cs    function                          Resources      27       2       1
+              Resources.cs    function           EditorBrowsableAttribute      34       9       3
+              Resources.cs    function           EditorBrowsableAttribute      49       8       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+     Resources.Designer.cs   namespace                         GUI_Client      12      60       9
+     Resources.Designer.cs       class                          Resources      26      46       8
+     Resources.Designer.cs    function           SuppressMessageAttribute      34       2       1
+     Resources.Designer.cs    function           EditorBrowsableAttribute      42      11       3
+     Resources.Designer.cs    function           EditorBrowsableAttribute      60      10       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Sender.cs   namespace                          CSE681SMA      21     126      14
+                 Sender.cs       class                             Client      23     124      13
+                 Sender.cs    function                             Client      32       4       1
+                 Sender.cs    function               CreateServiceChannel      37      12       1
+                 Sender.cs    function                         uploadFile      51      20       4
+                 Sender.cs    function                              using      57       6       1
+                 Sender.cs    function                           download      73      30       5
+                 Sender.cs    function                              using      83      11       2
+                 Sender.cs    function                               Main     105      40       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           SenderStream.cs   namespace                         RepoToMain      22     119      14
+           SenderStream.cs       class                            Clientx      24     117      13
+           SenderStream.cs    function                            Clientx      33       4       1
+           SenderStream.cs    function               CreateServiceChannel      38      16       1
+           SenderStream.cs    function                         uploadFile      56      20       4
+           SenderStream.cs    function                              using      62       6       1
+           SenderStream.cs    function                           download      78      30       5
+           SenderStream.cs    function                              using      88      11       2
+           SenderStream.cs    function                               Main     110      29       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          Serialization.cs   namespace                          Utilities      27     102      20
+          Serialization.cs       class                       ToAndFromXml      29      42       8
+          Serialization.cs    function                              ToXml      33      21       4
+          Serialization.cs    function                              using      43       3       1
+          Serialization.cs    function                                  >      57      12       3
+          Serialization.cs       class                          Utilities      71       8       2
+          Serialization.cs    function                              title      73       4       1
+          Serialization.cs       class                             Widget      82      16       5
+          Serialization.cs    function                             Widget      85       2       1
+          Serialization.cs    function                             Widget      88       3       1
+          Serialization.cs    function                            getName      92       3       1
+          Serialization.cs       class               TestXmlSerialization      99      30       4
+          Serialization.cs    function                               Main     102      24       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Server.cs   namespace                         RepoToMain      26     143      18
+                 Server.cs       class                      StreamService      30     139      17
+                 Server.cs    function                      StreamService      41       4       1
+                 Server.cs    function                         upLoadFile      47      25       3
+                 Server.cs    function                              using      55      11       2
+                 Server.cs    function                       downLoadFile      75      13       2
+                 Server.cs    function               CreateServiceChannel      90      14       1
+                 Server.cs       class                             Server     105      63       9
+                 Server.cs    function                             Server     111       4       1
+                 Server.cs    function                               wait     117       3       1
+                 Server.cs    function                        makeMessage     121       8       1
+                 Server.cs    function                      rcvThreadProc     132      11       2
+                 Server.cs    function                               Main     144      22       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Settings.cs   namespace                         Properties      11      28       8
+               Settings.cs       class                           Settings      14      25       7
+               Settings.cs    function                DebuggerNonUserCode      21      16       6
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+      Settings.Designer.cs   namespace                         GUI_Client      12      19       4
+      Settings.Designer.cs       class                           Settings      18      13       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          StreamService.cs   namespace                          CSE681SMA      23      96      10
+          StreamService.cs       class                      StreamService      28      91       9
+          StreamService.cs    function                      StreamService      37       4       1
+          StreamService.cs    function                         upLoadFile      44      25       3
+          StreamService.cs    function                              using      52      11       2
+          StreamService.cs    function                       downLoadFile      71      14       2
+          StreamService.cs    function               CreateServiceChannel      86      15       1
+          StreamService.cs    function                               Main     103      14       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Test1.cs   namespace                              TestH      20      48      11
+                  Test1.cs       class                          TestCode1      22      46      10
+                  Test1.cs    function                           Division      24      29       6
+                  Test1.cs    function                               Main      54      12       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Test2.cs   namespace                              TestH      20      46      10
+                  Test2.cs       class                          TestCode2      22      42       9
+                  Test2.cs    function                           Subtract      24      23       5
+                  Test2.cs    function                               Main      48      13       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Test3.cs   namespace                              TestH      21      40      10
+                  Test3.cs       class                          TestCode3      23      39       9
+                  Test3.cs    function                                Add      25      22       5
+                  Test3.cs    function                               Main      48      12       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Test4.cs   namespace                              TestH      21      40      10
+                  Test4.cs       class                          TestCode4      23      39       9
+                  Test4.cs    function                           Multiply      25      22       5
+                  Test4.cs    function                               Main      48      12       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+      TestHarnessServer.cs   namespace                     GUIHarnessTest      31     138      18
+      TestHarnessServer.cs       class                      StreamService      36     133      17
+      TestHarnessServer.cs    function                      StreamService      47       4       1
+      TestHarnessServer.cs    function                         upLoadFile      53      25       3
+      TestHarnessServer.cs    function                              using      61      11       2
+      TestHarnessServer.cs    function                       downLoadFile      81      13       2
+      TestHarnessServer.cs    function               CreateServiceChannel      96      14       1
+      TestHarnessServer.cs       class                             Server     112      56       9
+      TestHarnessServer.cs    function                             Server     118       6       1
+      TestHarnessServer.cs    function                               wait     126       3       1
+      TestHarnessServer.cs    function                        makeMessage     130       7       1
+      TestHarnessServer.cs    function                      rcvThreadProc     139      13       2
+      TestHarnessServer.cs    function                               Main     154      12       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               TestMain.cs   namespace                              TestH      23      41       5
+               TestMain.cs       class                           TestMain      25      39       4
+               TestMain.cs    function                               Main      29      33       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          TransferFiles.cs   namespace                FileTransferService      28      82      12
+          TransferFiles.cs       class                             Client      30      80      11
+          TransferFiles.cs    function                      CreateChannel      32       6       1
+          TransferFiles.cs    function                           SendFile      39      28       4
+          TransferFiles.cs    function                               Main      68      40       5
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           MainWindow.g.cs    function       DebuggerNonUserCodeAttribute     142      57       2
+         MainWindow.g.i.cs    function       DebuggerNonUserCodeAttribute     142      57       2
+
+              public data: LoadAndExecute.cs : 29 - struct TestData
+                public string Name ; 
+              public data: LoadAndExecute.cs : 30 - struct TestData
+                public ITest testDriver ; 
+              public data: MainWindow.xaml.cs : 39 - class MainWindow
+                public List < String > fileList ; 
+              public data: MainWindow.xaml.cs : 40 - class MainWindow
+                public List < String > fileList1 ; 
+
+
+    searched   283 dirs
+   processed   187 files

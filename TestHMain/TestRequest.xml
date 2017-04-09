@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testRequest>
+  <author>SAHIL DEEPAK SHAH</author>
+  
+  <test name="##First Test##">
+    <testPath>C:\Users\Sahil\Desktop\TestHarnessProject\TestCode1</testPath>
+    <library>DivideTest.dll</library>
+    <testDriver>TestDriver1.dll</testDriver>
+    </test>
+
+
+  <test name="##Second Test##">
+    <testPath>C:\Users\Sahil\Desktop\TestHarnessProject\TestCode2</testPath>
+    <library>TestCode2.dll</library>
+    <testDriver>TestDriver2.dll</testDriver>
+  </test>
+ </testRequest>

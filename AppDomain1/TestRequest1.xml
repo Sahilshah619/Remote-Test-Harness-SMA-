@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testRequest>
+  <author>SAHIL DEEPAK SHAH</author>
+  
+  <test name="##Third Test##">
+    <testPath>C:\Users\Sahil\Desktop\TestHarnessProject\TestCode3</testPath>
+    <library>TestCode3.dll</library>
+    <testDriver>TestDriver3.dll</testDriver>
+    </test>
+
+
+  <test name="##Fourth Test##">
+    <testPath>C:\Users\Sahil\Desktop\TestHarnessProject\TestCode4</testPath>
+    <library>TestCode4.dll</library>
+    <testDriver>TestDriver4.dll</testDriver>
+  </test>
+ </testRequest>
